@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    background-color: black !important;
+}
+
+#game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#in-game-container {
+    height: 100%;
+    width: 100%;
+}
+
+.fleet-header {
+    padding: 20px;
+    background-color: lightslategrey;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#side-panel {
+    width: 300px;
+    background-color: #bcd;
+}

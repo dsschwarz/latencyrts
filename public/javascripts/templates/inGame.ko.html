@@ -1,0 +1,20 @@
+<div id="in-game-container" class="flex-row">
+    <div class="flex-grow flex-column">
+        <div class="fleet-header">
+            <button class="create-fleet-btn" data-bind="click: createFleet">Create Fleet</button>
+            <div class="fleet-list" data-bind="foreach: playerFleets">
+                <div class="fleet-info">
+                    <div><span>Ships: </span><span data-bind="text: ships"></span></div>
+                </div>
+            </div>
+        </div>
+        <div id="svg-wrapper" class="flex-grow flex-column">
+            <svg id="svg-root-element" class="flex-grow">
+                <g class="all-system-container"></g>
+            </svg>
+        </div>
+    </div>
+    <div id="side-panel">
+        Side panel
+    </div>
+</div>
